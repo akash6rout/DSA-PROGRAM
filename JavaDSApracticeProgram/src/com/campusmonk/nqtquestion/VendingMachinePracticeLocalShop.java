@@ -36,7 +36,9 @@ public class VendingMachinePracticeLocalShop {
 		default :
 			System.out.println("Invalid Input");
 			
-		}if(!subManu.isEmpty())
+		}
+		
+		if(!subManu.isEmpty())
 		{
 			System.out.println(subManu+"Enjoy your!!");
 		}
