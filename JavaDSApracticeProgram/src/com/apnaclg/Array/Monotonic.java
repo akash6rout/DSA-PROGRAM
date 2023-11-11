@@ -2,7 +2,7 @@ package com.apnaclg.Array;
 
 public class Monotonic {
 	
-	public static boolean isIncreasing(int arr[],int n) {
+	public static boolean isIncreasing(int arr[],int n) {//int arr[]= {1,2,3,4};
 		for(int i=0;i<n-1;i++)
 		{
 			if(arr[i]>arr[i+1])
@@ -21,7 +21,7 @@ public class Monotonic {
 				return false;
 			}
 		}
-		return false;
+		return true;
 	}
 	
 	public static boolean isMonotonic(int arr[],int n) {
@@ -35,7 +35,7 @@ public class Monotonic {
 	public static void main(String[] args) {
 		
 		//int arr[]= {1,2,3,4};
-		int arr[]= {1,2,2,1};
+		int arr[]= {4,3,2,1};
 		int n=arr.length;
 		System.out.println(isMonotonic(arr, n));
 	}
