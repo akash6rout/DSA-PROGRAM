@@ -23,10 +23,10 @@ public class AddDigits {
         System.out.println("Input: " + num1);
         System.out.println("Output: " + result1);
 
-        int num2 = 0;
+       /* int num2 = 0;
         int result2 = solution.addDigits(num2);
         System.out.println("Input: " + num2);
-        System.out.println("Output: " + result2);
+        System.out.println("Output: " + result2);*/
 
 	}
 
