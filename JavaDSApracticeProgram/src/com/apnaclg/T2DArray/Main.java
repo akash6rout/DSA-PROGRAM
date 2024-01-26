@@ -67,9 +67,9 @@ public class Main {
 			System.out.println();
 		}
 		
-		//search(matrix, 5);
+		search(matrix, 5);
 		//System.out.println(LargestElement(matrix));
-		System.out.println(smallestElement(matrix));
+		//System.out.println(smallestElement(matrix));
 	}
 
 }
