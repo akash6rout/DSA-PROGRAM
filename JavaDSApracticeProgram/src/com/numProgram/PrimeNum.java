@@ -1,21 +1,25 @@
 package com.numProgram;
 
 public class PrimeNum {
-
-	public static void main(String[] args) {
-		
-		int no=7;
+	public static void isPrime(int number) {
 		int count=0;
-		for(int i=1;i<=no;i++) {
-			if(no%i==0) {
+		for(int i=1;i<=number;i++) {
+			if(number%i==0) {
 				count++;
 			}
 		}
 		if(count==2) {
-			System.out.println("No is prime");
-		}else {
-			System.out.println("No is not prime");
+			System.out.println("No is Prime");
 		}
+		else {
+			System.out.println("no is not prime");
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		int number=7;
+		isPrime(number);
 	}
 
 }
