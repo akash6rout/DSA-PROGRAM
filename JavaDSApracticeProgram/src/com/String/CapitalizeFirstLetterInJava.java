@@ -18,7 +18,8 @@ public class CapitalizeFirstLetterInJava {
 		  
 		  String sub = arr[i].substring(1);
 		  
-		  requiredString =requiredString + c1 + sub + " "; }
+		  requiredString =requiredString + c1 + sub + " ";
+		  }
 		  System.out.println(requiredString.trim()); }
 		 
 		/*String str = "i am going to school";
