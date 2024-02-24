@@ -22,6 +22,8 @@ public class Question111 {
 	
 	public static void main(String[] args) {
 		stringProgram("i am going to school");
+		stringProgram("i am going to school");
+		stringProgram("i am going to school");
 	}
 
 }
